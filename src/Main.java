@@ -61,6 +61,6 @@ public class Main {
         System.out.println();
         System.out.println("Задача 8:");
         System.out.println("Всего сотрудников в компании - " + allEmployee + " человек");
-        System.out.println("Если в компании работает - " + allEmployeePlusNintyFour + " человека," + " то всего " + allTimeForEmployee + " часа работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + allEmployeePlusNintyFour + " человека," + " то всего " + allTimeForEmployee + " часа работы может быть поделено между сотрудниками");
         }
 }
