@@ -1,5 +1,66 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println();
+        System.out.println("Задача 1:");
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        System.out.println();
+        System.out.println("Задача 2:");
+        var dogFour = dog + 4;
+        var catFour = dog + 4;
+        var paperFour = dog + 4;
+        System.out.println(dogFour);
+        System.out.println(catFour);
+        System.out.println(paperFour);
+        System.out.println();
+        System.out.println("Задача 3:");
+        var dogMinus = dog - 3.5f;
+        var catMinus = dog - 1.6f;
+        var paperMinus = dog - 7639;
+        System.out.println(dogMinus);
+        System.out.println(catMinus);
+        System.out.println(paperMinus);
+        var friend = 19;
+        var friendPlusTwo = friend + 2;
+        var friendDivSeven = friendPlusTwo / 7;
+        System.out.println();
+        System.out.println("Задача 4:");
+        System.out.println(friend);
+        System.out.println(friendPlusTwo);
+        System.out.println(friendDivSeven);
+        var frog = 3.5f;
+        var frogMultiTen = frog * 10;
+        var frogDivThree = frogMultiTen / 3.5f;
+        var frogPlusFour = frogDivThree + 4;
+        System.out.println();
+        System.out.println("Задача 5:");
+        System.out.println(frogMultiTen);
+        System.out.println(frogDivThree);
+        System.out.println(frogPlusFour);
+        var boxerWeightFirst = 78.2f;
+        var boxerWeightSecond = 82.7f;
+        var allMass = boxerWeightFirst + boxerWeightSecond;
+        var diffMass = boxerWeightSecond - boxerWeightFirst;
+        System.out.println();
+        System.out.println("Задача 6:");
+        System.out.println("Общая масса: " + allMass + " кг");
+        System.out.println("Разница масс: " + diffMass + " кг");
+        System.out.println();
+        System.out.println("Задача 7:");
+        var remDivMass = boxerWeightSecond % boxerWeightFirst;
+        System.out.println("Остаток от деления масс: " + remDivMass + " кг");
+        var jobTime = 640;
+        var workerTime = 8;
+        var allEmployee = jobTime / workerTime;
+        var allEmployeePlusNintyFour = jobTime / workerTime + 94;
+        var allTimeForEmployee = jobTime / allEmployeePlusNintyFour;
+        System.out.println();
+        System.out.println("Задача 8:");
+        System.out.println("Всего сотрудников в компании - " + allEmployee + " человек");
+        System.out.println("Если в компании работает " + allEmployeePlusNintyFour + " человека," + " то всего " + allTimeForEmployee + " часа работы может быть поделено между сотрудниками");
+        }
 }
